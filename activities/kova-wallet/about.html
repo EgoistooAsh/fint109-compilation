@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Kova Wallet | Who it's for and how it works</title>
+  <meta name="description" content="Why Kova Wallet exists, who it serves, why it uses stablecoins, how it makes money and how it would stay safe and compliant. A fictional FinTech concept.">
+  <meta name="author" content="Aleck Abacan">
+  <meta name="theme-color" content="#0B1F33">
+  <link rel="icon" href="images/kova-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- Site header: identical on both pages -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/kova-logo.svg" alt="" width="32" height="32">
+        <span>Kova<span class="visually-hidden"> Wallet home</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#how">How it works</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="about.html" aria-current="page">About Kova</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Intro -->
+    <section class="hero hero-about" aria-labelledby="about-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">About Kova</p>
+          <h1 id="about-title">Why we built Kova</h1>
+          <p class="lead">The people who move money across borders most often tend to pay the most to do it. Kova started with one question: why should money lose part of itself every time it crosses a border?</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#who">Meet the people it's for</a>
+            <a class="btn btn-ghost" href="#safety">How it stays safe</a>
+          </div>
+        </div>
+
+        <aside class="glance" aria-labelledby="glance-title">
+          <h2 id="glance-title">Kova at a glance</h2>
+          <dl>
+            <div><dt>Balance held as</dt><dd>USDC</dd></div>
+            <div><dt>Ways to pay</dt><dd>Virtual card and 5 local QR systems</dd></div>
+            <div><dt>Send fee</dt><dd>$0.50 flat</dd></div>
+            <div><dt>Conversion fee</dt><dd>0.5%</dd></div>
+            <div><dt>Status</dt><dd>Fictional concept, 2026</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Target customers -->
+    <section class="section" id="who" aria-labelledby="who-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Target customers</p>
+          <h2 id="who-title">Who Kova is for</h2>
+          <p>Three groups whose money regularly crosses a border, wherever they live.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card persona">
+            <div class="persona-top">
+              <span class="avatar" aria-hidden="true">M</span>
+              <div>
+                <h3>Maria, nurse in Dubai</h3>
+                <p class="tag">Worker abroad</p>
+              </div>
+            </div>
+            <p class="label">Today</p>
+            <p>Sends part of every paycheck to her mother in Cebu. Fees and rate markups used to cost her about $27 on every $500.</p>
+            <p class="label">With Kova</p>
+            <p>The money arrives in minutes, and her mother cashes out to her local e-wallet.</p>
+          </article>
+          <article class="card persona">
+            <div class="persona-top">
+              <span class="avatar" aria-hidden="true">A</span>
+              <div>
+                <h3>Arjun, freelance designer in Bengaluru</h3>
+                <p class="tag">Remote freelancer</p>
+              </div>
+            </div>
+            <p class="label">Today</p>
+            <p>Clients in the US and UK pay him in dollars, but platform fees and conversion spreads eat into every invoice.</p>
+            <p class="label">With Kova</p>
+            <p>Clients pay in USDC. He keeps his earnings in dollars and converts only when he needs rupees.</p>
+          </article>
+          <article class="card persona">
+            <div class="persona-top">
+              <span class="avatar" aria-hidden="true">L</span>
+              <div>
+                <h3>Lena, traveler from Berlin</h3>
+                <p class="tag">Traveler</p>
+              </div>
+            </div>
+            <p class="label">Today</p>
+            <p>Backpacking Southeast Asia for three months, she pays a fee on every card purchase abroad.</p>
+            <p class="label">With Kova</p>
+            <p>She scans local QR codes, sees the price in euros before paying, and skips the airport exchange counter.</p>
+          </article>
+        </div>
+        <p class="note">Personas are fictional and used for illustration.</p>
+      </div>
+    </section>
+
+    <!-- Why stablecoins -->
+    <section class="section section-white" id="stablecoins" aria-labelledby="stablecoins-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">The technology</p>
+          <h2 id="stablecoins-title">Why stablecoins, not Bitcoin, for everyday payments</h2>
+          <p>A stablecoin is a digital token built to hold a steady value, usually 1 US dollar, backed by reserves of cash and cash equivalents. Bitcoin and Ether are useful investments, but their prices move too much for paying a bill.</p>
+        </div>
+
+        <figure class="flow">
+          <picture>
+            <source media="(max-width: 639px)" srcset="images/kova-flow-mobile.webp" width="700" height="990">
+            <img src="images/kova-flow.webp" alt="Diagram of how money moves through Kova: a card or bank top-up becomes one USDC balance, which can be spent by card or QR code, sent to any Kova wallet, or cashed out to a bank or e-wallet. Bitcoin and Ether investing is kept separate." width="1100" height="440" loading="lazy">
+          </picture>
+          <figcaption>How money moves through Kova: top-ups become USDC once, and every payment draws on that one balance.</figcaption>
+        </figure>
+
+        <div class="two-col">
+          <div class="table-wrap light" role="region" aria-label="Stablecoin versus Bitcoin comparison, scrolls sideways on small screens" tabindex="0">
+            <table class="compare compare-light">
+              <caption>How Kova uses each type of digital asset</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Question</th>
+                  <th scope="col" class="kova">USDC (stablecoin)</th>
+                  <th scope="col">Bitcoin or Ether</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Price on a typical day</th>
+                  <td class="kova">Stays near $1</td>
+                  <td>Can move several percent</td>
+                </tr>
+                <tr>
+                  <th scope="row">What you pay at checkout</th>
+                  <td class="kova">Known before you tap</td>
+                  <td>Could change before the payment settles</td>
+                </tr>
+                <tr>
+                  <th scope="row">Role in Kova</th>
+                  <td class="kova">Everyday balance for spending, sending and saving</td>
+                  <td>Optional investing in Kova Invest</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="glossary">
+            <h3>Words to know</h3>
+            <dl>
+              <dt>Stablecoin</dt>
+              <dd>A digital token built to hold a steady value, usually 1 US dollar.</dd>
+              <dt>USDC</dt>
+              <dd>A US dollar stablecoin issued by Circle and backed by reserves.</dd>
+              <dt>Network fee</dt>
+              <dd>The small charge paid to a blockchain network to process a transfer.</dd>
+              <dt>On-ramp and off-ramp</dt>
+              <dd>Turning regular money into digital dollars, and back again.</dd>
+              <dt>KYC (Know Your Customer)</dt>
+              <dd>Identity checks a financial service runs before opening an account.</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title">How Kova makes money</h2>
+          <p>Kova earns from small fees you see up front, never from a hidden exchange-rate markup. All prices are fictional.</p>
+        </div>
+        <div class="table-wrap light" role="region" aria-label="Kova fee table, scrolls sideways on small screens" tabindex="0">
+          <table class="compare compare-light price-table">
+            <caption class="visually-hidden">Kova Wallet fees by action</caption>
+            <thead>
+              <tr>
+                <th scope="col">Action</th>
+                <th scope="col">Kova fee</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Top up by bank transfer</th><td>Free</td></tr>
+              <tr><th scope="row">Top up by card</th><td>Card processing cost, passed through and shown before you confirm</td></tr>
+              <tr><th scope="row">Convert between USDC and local currency</th><td>0.5%</td></tr>
+              <tr><th scope="row">Send to another Kova wallet</th><td>$0.50 flat</td></tr>
+              <tr><th scope="row">Pay by virtual card or QR code</th><td>No extra fee; the 0.5% conversion applies</td></tr>
+              <tr><th scope="row">Cash out to a bank or e-wallet</th><td>Free; the 0.5% conversion applies</td></tr>
+              <tr><th scope="row">Buy or sell in Kova Invest</th><td>1%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safety and compliance -->
+    <section class="section section-white" id="safety" aria-labelledby="safety-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Trust</p>
+          <h2 id="safety-title">Safety and compliance</h2>
+          <p>Kova is a concept, but a real launch would have to meet the same rules as any money service. Here is what that would take.</p>
+        </div>
+        <ul class="check-list">
+          <li><strong>Licensed market by market.</strong> There is no single global license. In the Philippines, crypto services are licensed by the <a href="https://www.bsp.gov.ph/" target="_blank" rel="noopener noreferrer">Bangko Sentral ng Pilipinas (BSP)<span class="visually-hidden"> (opens in a new tab)</span></a> as virtual asset service providers (VASPs); in the EU, under the MiCA regulation.</li>
+          <li><strong>Know Your Customer (KYC).</strong> Every user verifies their identity before sending or cashing out.</li>
+          <li><strong>Anti-money laundering (AML) monitoring.</strong> Transfers are screened for suspicious patterns and sanctioned parties.</li>
+          <li><strong>The Travel Rule.</strong> Sender and receiver details travel with each transfer, following standards set by the <a href="https://www.fatf-gafi.org/" target="_blank" rel="noopener noreferrer">Financial Action Task Force (FATF)<span class="visually-hidden"> (opens in a new tab)</span></a>.</li>
+          <li><strong>Reserve checks.</strong> Kova only supports stablecoins whose reserves are independently checked every month.</li>
+          <li><strong>Account security.</strong> Biometric login, two-factor authentication and a one-tap card freeze.</li>
+        </ul>
+        <p class="callout"><strong>Note:</strong> The BSP has paused new VASP licenses for an indefinite period, so a real Philippine launch would have to work through an already-licensed provider.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Questions people ask</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Is Kova Wallet a real product?</summary>
+            <p>No. It's a fictional concept made for a university class.</p>
+          </details>
+          <details>
+            <summary>Do shops need to accept crypto?</summary>
+            <p>No. Kova converts at checkout, so the merchant receives its local currency.</p>
+          </details>
+          <details>
+            <summary>What if USDC drops below $1?</summary>
+            <p>Stablecoins can briefly trade below their peg during a market shock. Kova would warn users and pause conversions until the price recovered.</p>
+          </details>
+          <details>
+            <summary>Can I keep Bitcoin or Ether?</summary>
+            <p>Yes, in the optional Kova Invest tab. Payments always come from your USDC balance.</p>
+          </details>
+          <details>
+            <summary>Where does Kova work?</summary>
+            <p>In any market where it holds a license. The five QR systems show the first regions it was designed for.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- External resources -->
+    <section class="section section-white" id="reading" aria-labelledby="reading-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Further reading</p>
+          <h2 id="reading-title">Learn more from the source</h2>
+        </div>
+        <ul class="link-cards">
+          <li>
+            <a href="https://www.bsp.gov.ph/" target="_blank" rel="noopener noreferrer">
+              <strong>Bangko Sentral ng Pilipinas</strong>
+              <span>The Philippine central bank, which licenses virtual asset service providers</span>
+              <span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.fatf-gafi.org/" target="_blank" rel="noopener noreferrer">
+              <strong>Financial Action Task Force</strong>
+              <span>The global standard-setter behind the Travel Rule for crypto transfers</span>
+              <span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.circle.com/usdc" target="_blank" rel="noopener noreferrer">
+              <strong>Circle: USDC</strong>
+              <span>How the US dollar stablecoin that Kova would use is issued and backed</span>
+              <span class="visually-hidden"> (opens in a new tab)</span>
+            </a>
+          </li>
+        </ul>
+        <p class="back-home"><a href="index.html">Back to the Kova home page</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site footer: identical on both pages -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img src="images/kova-logo.svg" alt="" width="32" height="32">
+          <span>Kova<span class="visually-hidden"> Wallet home</span></span>
+        </a>
+        <p>Hold dollars. Spend anywhere. Send for cents.</p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Kova</a></li>
+          <li><a href="../../index.html">All my FINT109 activities</a></li>
+        </ul>
+      </nav>
+      <div class="footer-notes">
+        <p class="footer-resources">Further reading: <a href="https://www.bsp.gov.ph/" target="_blank" rel="noopener noreferrer">Bangko Sentral ng Pilipinas<span class="visually-hidden"> (opens in a new tab)</span></a> &middot; <a href="https://www.circle.com/usdc" target="_blank" rel="noopener noreferrer">Circle: USDC<span class="visually-hidden"> (opens in a new tab)</span></a></p>
+        <p><strong>Kova Wallet is a fictional product</strong> created for FINT109 Mobile Web App Development at Mapúa University. All figures are illustrative.</p>
+        <p><small>&copy; 2026 Aleck Abacan. Images and icons are original. Fonts: Inter and Plus Jakarta Sans, used under the SIL Open Font License.</small></p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
