@@ -2,7 +2,8 @@
 
 **Aleck Joaquin T. Abacan** · BS Financial Technology · FINT109 Mobile Web App Development · Section FINT109-CON05 · 1Q26
 
-Live site: `https://YOUR-USERNAME.github.io/fint109-compilation/` (replace with your GitHub Pages link)
+- Live site: https://egoistooash.github.io/fint109-compilation/
+- Repository: https://github.com/EgoistooAsh/fint109-compilation
 
 ## Activities
 

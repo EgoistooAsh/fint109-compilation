@@ -1,4 +1,4 @@
 Student Activity Compilation: Aleck Joaquin T. Abacan, FINT109-CON05, 1Q26
 
-GitHub repository: https://github.com/YOUR-USERNAME/fint109-compilation
-Live site (GitHub Pages): https://YOUR-USERNAME.github.io/fint109-compilation/
+GitHub repository: https://github.com/EgoistooAsh/fint109-compilation
+Live site (GitHub Pages): https://egoistooash.github.io/fint109-compilation/
